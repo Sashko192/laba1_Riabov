@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <title>WorldTravel</title>
+ 
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+<body>
+   <header align = "center">
+    <ul>
+        <li><a href = "index.html">Головна</a></li>
+        <li><a href = "Country.html">Країни</a></li>
+        <li><a href = "WhyWe.html">Чому ми?</a></li>
+    </ul>
+   </header>
+   <hr>
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма-анкетування</title>
+</head>
+<body>
+    <form id="myForm">
+        <label for="fname">Ім'я:</label><br>
+        <input type="text" id="fname" name="fname" >
+        <br>
+        <label for="lname">Прізвище:</label><br>
+        <input type="text" id="lname" name="lname" >
+        <br>
+        <br>
+        <article><b>Контактна інформація</b></article>
+        
+        <label for="email">Електронна адреса:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="phone">Номер телефону:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="+380123456789" required>
+        <br>
+        <label for="message">Побажання:</label>
+        <textarea id="message" name="message" rows="1" cols="50"></textarea>
+        <br>
+        <button type="reset" form="myForm">Очистити текст</button>
+        <br>
+        <button type="submit">Відправити</button>
+        <br>
+    </form>
+</body>
+</html>
